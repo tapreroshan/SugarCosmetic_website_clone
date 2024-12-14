@@ -1,8 +1,11 @@
 /* App Container */
-.app-container {
+header {
     font-family: Arial, sans-serif;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
+    z-index: 1000;
+    margin-top: 0px;
+    top: 0px;
   }
   
   /* Banner Styles */

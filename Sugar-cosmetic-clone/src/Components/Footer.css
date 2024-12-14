@@ -1,0 +1,156 @@
+.subscription-container .hedtitle {
+    padding: 0;
+    margin: 0;
+  }
+  ftbg{
+    background-color: #000;
+  }
+  .subscription-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 6px 0 0 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-image: url('C:/Users/ADMIN/Desktop/Construct week project/SugarCosmetic_website_clone/Sugar-cosmetic-clone/src/images/Rectangle_background_footer.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 220px; /* Increased height */
+  }
+  
+  .footer-logo {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+  .lote{
+    margin-top: 60px;
+    color: #fff;
+  }
+  
+  .footer-logo img {
+    
+    /* width: 220px; */
+    height: auto;
+    background-color: #000;
+   border-radius: 50%;
+      
+  }
+  
+  .subscription-container p {
+    text-align: center;
+    font-size: 19px;
+    color: #362e2e;
+  }
+  
+  .subscription-input {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .subscription-input input {
+    padding: 15px;
+    font-size: 19px;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+    width: 40%;
+  }
+  
+  .subscription-input button {
+    padding: 15px 20px;
+    font-size: 19px;
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+  }
+  
+  .footer__container {
+    background-color: #000;
+    height: auto;
+    
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+  }
+  
+  .social-icons {
+    /* position: absolute; */
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .social-icons a {
+    
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: #ccc;
+  }
+  
+
+
+  .line{
+    margin-top: 40px;
+    width: 80%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 33px;
+  }
+
+  .dataft{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .dataft span{
+    font-size: 1.5rem;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .dataft span:hover{
+    text-decoration: underline white;
+    opacity: 0.6;
+  }
+
+  .get-touch{
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    align-items: flex-end;
+    border-bottom: 1px solid seashell;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .get-touch__container{
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+  }
+  .get-touch__container h2 {
+    padding: 0;
+    margin: 0;
+  }
