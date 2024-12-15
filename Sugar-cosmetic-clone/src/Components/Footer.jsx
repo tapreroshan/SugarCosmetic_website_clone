@@ -8,6 +8,10 @@ import { TiSocialYoutubeCircular } from "react-icons/ti";
 
 import { AiFillPinterest } from "react-icons/ai";
 
+//app image 
+import appstore from "../images/App_img/apple-store.png"
+import playstore from "../images/App_img/playstore.png"
+
 
 //footer logo
 import ftlogo from '../images/logo/ftlogo.jpg'
@@ -78,13 +82,25 @@ export const Footer = () => {
             <p>pr@sugarcosmetics.com</p>
           </div>
           <div className="get-touch__container">
-            <h1></h1>
             <h2>Influencer Collab</h2>
             <p>Join Us</p>
           </div>
           </div>
+          <div className="line-app">
+          <div className="qbc">
+          <div className="get-touch__container">
+            <h3 className='htag'>GET THE NEW SUGAR APP TODAY!</h3>
+            <p>Tap into a better shopping experience.</p>
+          </div>
+          <img src={playstore} alt="" />
+          <img src={appstore} alt="" />
+          </div>
         </div>
+        <p className='end'>Copyright © 2024 SUGAR Cosmetics. All rights reserved.
+        </p>
 
+        </div>
+        
       </div>
     
   )

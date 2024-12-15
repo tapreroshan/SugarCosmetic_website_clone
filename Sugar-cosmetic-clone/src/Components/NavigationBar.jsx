@@ -53,7 +53,7 @@ function NavigationBar() {
       {/*Navbar*/}
       <div className="navbar">
       {/* Logo */}
-      <div className="navbar-logo"><img src={logo} alt="logo" srcset="" /></div>
+      <div className="navbar-logo"><img src={logo} alt="logo" /></div>
 
       {/* Search Bar */}
       <div className="navbar-search">
@@ -90,39 +90,188 @@ function NavigationBar() {
       {/* Navigation Links */}
       <nav className="nav-links">
         <div className="links">
-        <a href="#">SUGAR PLAY</a>
+        <div className="dropdown">
+    <a href="#">SUGAR PLAY</a>
+    <div className="dropdown-column">
+        <div className="ddc">
+            <h4>FOUNDATION & BB CREAM</h4>
+            <ul>
+                <li><a href="#">Stick Foundation</a></li>
+                <li><a href="#">Liquid Foundation</a></li>
+                <li><a href="#">BB Cream</a></li>
+            </ul>
+            
+            <h4>COMPACT & FIXERS</h4>
+            <ul>
+                <li><a href="#">Setting Sprays</a></li>
+                <li><a href="#">Loose Powder</a></li>
+                <li><a href="#">Compact</a></li>
+            </ul>
+            
+            <h4>PALETTES</h4>
+            <ul>
+                <li><a href="#">Blush</a></li>
+                <li><a href="#">Highlighter</a></li>
+                <li><a href="#">Bronzer</a></li>
+            </ul>
+        </div>
+        <div className="ddc">
+            <h4>PRIMER</h4>
+            <ul>
+                <li><a href="#">Translucent Primers</a></li>
+                <li><a href="#">Tinted Primers</a></li>
+            </ul>
+            
+            <h4>CONCEALERS & CORRECTORS</h4>
+            <ul>
+                <li><a href="#">Colour Correctors</a></li>
+                <li><a href="#">Concealer</a></li>
+            </ul>
+            
+            <h4>HIGHLIGHTERS</h4>
+            <ul>
+                <li><a href="#">Highlighter</a></li>
+            </ul>
+        </div>
+        <div className="ddc">
+            <h4>BRONZER & CONTOUR</h4>
+            <ul>
+                <li><a href="#">Bronzer</a></li>
+                <li><a href="#">Contour</a></li>
+            </ul>
+            
+            <h4>FACE SETS & COMBOS</h4>
+            <ul>
+                <li><a href="#">Face Sets</a></li>
+                <li><a href="#">Combos</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+        
         <a href="#">LIPS</a>
         <a href="#">EYES</a>
         
         <div className="dropdown">
-          <a href="#">FACE</a>
-      <div className="dropdown-column">
-        <h4>FOUNDATION & BB CREAM</h4>
-        <ul>
-          <li><a href="#">Stick Foundation</a></li>
-          <li><a href="#">Liquid Foundation</a></li>
-          <li><a href="#">BB Cream</a></li>
-        </ul>
-      
-        <h4>COMPACT & FIXERS</h4>
-        <ul>
-          <li><a href="#">Setting Sprays</a></li>
-          <li><a href="#">Loose Powder</a></li>
-          <li><a href="#">Compact</a></li>
-        </ul>
-     
-        <h4>PALETTES</h4>
-        <ul>
-          <li><a href="#">Blush</a></li>
-          <li><a href="#">Highlighter</a></li>
-          <li><a href="#">Bronzer</a></li>
-        </ul>
-      </div>
+    <a href="#">FACE</a>
+    <div className="dropdown-column">
+        <div className="ddc">
+            <h4>FOUNDATION & BB CREAM</h4>
+            <ul>
+                <li><a href="#">Stick Foundation</a></li>
+                <li><a href="#">Liquid Foundation</a></li>
+                <li><a href="#">BB Cream</a></li>
+            </ul>
+            
+            <h4>COMPACT & FIXERS</h4>
+            <ul>
+                <li><a href="#">Setting Sprays</a></li>
+                <li><a href="#">Loose Powder</a></li>
+                <li><a href="#">Compact</a></li>
+            </ul>
+            
+            <h4>PALETTES</h4>
+            <ul>
+                <li><a href="#">Blush</a></li>
+                <li><a href="#">Highlighter</a></li>
+                <li><a href="#">Bronzer</a></li>
+            </ul>
+        </div>
+        <div className="ddc">
+            <h4>PRIMER</h4>
+            <ul>
+                <li><a href="#">Translucent Primers</a></li>
+                <li><a href="#">Tinted Primers</a></li>
+            </ul>
+            
+            <h4>CONCEALERS & CORRECTORS</h4>
+            <ul>
+                <li><a href="#">Colour Correctors</a></li>
+                <li><a href="#">Concealer</a></li>
+            </ul>
+            
+            <h4>HIGHLIGHTERS</h4>
+            <ul>
+                <li><a href="#">Highlighter</a></li>
+            </ul>
+        </div>
+        <div className="ddc">
+            <h4>BRONZER & CONTOUR</h4>
+            <ul>
+                <li><a href="#">Bronzer</a></li>
+                <li><a href="#">Contour</a></li>
+            </ul>
+            
+            <h4>FACE SETS & COMBOS</h4>
+            <ul>
+                <li><a href="#">Face Sets</a></li>
+                <li><a href="#">Combos</a></li>
+            </ul>
+        </div>
     </div>
+</div>
+
 
         <a href="#">NAILS</a>
         <a href="#">SKINCARE</a>
-        <a href="#">ACCESSORIES</a>
+        <div className="dropdown">
+    <a href="#">ACCESSORIES</a>
+    <div className="dropdown-column">
+        <div className="ddc">
+            <h4>FOUNDATION & BB CREAM</h4>
+            <ul>
+                <li><a href="#">Stick Foundation</a></li>
+                <li><a href="#">Liquid Foundation</a></li>
+                <li><a href="#">BB Cream</a></li>
+            </ul>
+            
+            <h4>COMPACT & FIXERS</h4>
+            <ul>
+                <li><a href="#">Setting Sprays</a></li>
+                <li><a href="#">Loose Powder</a></li>
+                <li><a href="#">Compact</a></li>
+            </ul>
+            
+            <h4>PALETTES</h4>
+            <ul>
+                <li><a href="#">Blush</a></li>
+                <li><a href="#">Highlighter</a></li>
+                <li><a href="#">Bronzer</a></li>
+            </ul>
+        </div>
+        <div className="ddc">
+            <h4>PRIMER</h4>
+            <ul>
+                <li><a href="#">Translucent Primers</a></li>
+                <li><a href="#">Tinted Primers</a></li>
+            </ul>
+            
+            <h4>CONCEALERS & CORRECTORS</h4>
+            <ul>
+                <li><a href="#">Colour Correctors</a></li>
+                <li><a href="#">Concealer</a></li>
+            </ul>
+            
+            <h4>HIGHLIGHTERS</h4>
+            <ul>
+                <li><a href="#">Highlighter</a></li>
+            </ul>
+        </div>
+        <div className="ddc">
+            <h4>BRONZER & CONTOUR</h4>
+            <ul>
+                <li><a href="#">Bronzer</a></li>
+                <li><a href="#">Contour</a></li>
+            </ul>
+            
+            <h4>FACE SETS & COMBOS</h4>
+            <ul>
+                <li><a href="#">Face Sets</a></li>
+                <li><a href="#">Combos</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
         <a href="#">GIFTING</a>
         <a href="#">BESTSELLERS</a>
         <a href="#">NEW LAUNCHES</a>

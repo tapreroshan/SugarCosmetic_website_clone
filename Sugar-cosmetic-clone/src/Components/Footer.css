@@ -1,156 +1,262 @@
 .subscription-container .hedtitle {
-    padding: 0;
-    margin: 0;
-  }
-  ftbg{
-    background-color: #000;
-  }
+  padding: 0;
+  margin: 0;
+}
+ftbg {
+  background-color: #000;
+}
+.subscription-container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 6px 0 0 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-image: url('C:/Users/ADMIN/Desktop/Construct week project/SugarCosmetic_website_clone/Sugar-cosmetic-clone/src/images/Rectangle_background_footer.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 220px;
+}
+.footer-logo {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+.lote {
+  margin-top: 60px;
+  color: #fff;
+}
+.footer-logo img {
+  height: auto;
+  background-color: #000;
+  border-radius: 50%;
+}
+.subscription-container p {
+  text-align: center;
+  font-size: 19px;
+  color: #362e2e;
+}
+.subscription-input {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.subscription-input input {
+  padding: 15px;
+  font-size: 19px;
+  border: 1px solid #ccc;
+  border-radius: 6px 0 0 6px;
+  width: 40%;
+}
+.subscription-input button {
+  padding: 15px 20px;
+  font-size: 19px;
+  border: none;
+  background: #000;
+  color: #fff;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+.footer__container {
+  background-color: #000;
+  height: auto;
+  text-align: center;
+  padding: 2rem 0;
+  position: relative;
+}
+.social-icons {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+.social-icons a {
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ccc;
+}
+.line {
+  margin-top: 40px;
+  width: 80%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 33px;
+}
+.dataft {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.dataft span {
+  font-size: 1.5rem;
+  color: white;
+  transition: 0.3s;
+}
+.dataft span:hover {
+  text-decoration: underline white;
+  opacity: 0.6;
+}
+.get-touch {
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+  align-items: flex-end;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  margin-left: auto;
+  margin-right: auto;
+}
+.get-touch__container {
+  color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.get-touch__container h2 {
+  padding: 0;
+  margin: 0;
+}
+.get-touch__container p {
+  color: #727272;
+  margin-top: 0px;
+}
+.line-app {
+  border-bottom: 1px solid white;
+  display: block;
+}
+.qbc {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+}
+.htag {
+  margin-bottom: 0px;
+}
+.line-app img {
+  width: 10%;
+  height: 5%;
+}
+.end {
+  color: #727272;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
   .subscription-container {
-    position: relative;
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 6px 0 0 6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-image: url('C:/Users/ADMIN/Desktop/Construct week project/SugarCosmetic_website_clone/Sugar-cosmetic-clone/src/images/Rectangle_background_footer.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 220px; /* Increased height */
+      padding: 10px;
+      height: auto;
+      background-size: cover;
   }
-  
-  .footer-logo {
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-  }
-  .lote{
-    margin-top: 60px;
-    color: #fff;
-  }
-  
-  .footer-logo img {
-    
-    /* width: 220px; */
-    height: auto;
-    background-color: #000;
-   border-radius: 50%;
-      
-  }
-  
-  .subscription-container p {
-    text-align: center;
-    font-size: 19px;
-    color: #362e2e;
-  }
-  
   .subscription-input {
-    display: flex;
-    margin-top: 20px;
-    justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
   }
-  
   .subscription-input input {
-    padding: 15px;
-    font-size: 19px;
-    border: 1px solid #ccc;
-    border-radius: 6px 0 0 6px;
-    width: 40%;
+      width: 90%;
+      font-size: 16px;
   }
-  
   .subscription-input button {
-    padding: 15px 20px;
-    font-size: 19px;
-    border: none;
-    background: #000;
-    color: #fff;
-    border-radius: 0 6px 6px 0;
-    cursor: pointer;
+      font-size: 16px;
+      width: 90%;
   }
-  
-  .footer__container {
-    background-color: #000;
-    height: auto;
-    
-    text-align: center;
-    padding: 2rem 0;
-    position: relative;
+  .footer-logo img {
+      width: 150px;
   }
-  
+  .lote {
+      margin-top: 40px;
+      font-size: 1.2rem;
+  }
   .social-icons {
-    /* position: absolute; */
-    margin-top: 90px;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    text-align: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 50px;
   }
-  
   .social-icons a {
-    
-    color: #fff;
-    font-size: 2rem;
-    text-decoration: none;
-    transition: transform 0.3s ease, color 0.3s ease;
+      font-size: 1.5rem;
   }
-  
-  .social-icons a:hover {
-    transform: scale(1.2);
-    color: #ccc;
+  .line {
+      width: 90%;
+      margin-top: 30px;
+      padding: 20px;
   }
-  
-
-
-  .line{
-    margin-top: 40px;
-    width: 80%;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 33px;
+  .dataft {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
   }
-
-  .dataft{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+  .dataft span {
+      font-size: 1.2rem;
   }
-  .dataft span{
-    font-size: 1.5rem;
-    color: white;
-    transition: 0.3s;
+  .get-touch {
+      flex-direction: column;
+      gap: 20px;
   }
-
-  .dataft span:hover{
-    text-decoration: underline white;
-    opacity: 0.6;
-  }
-
-  .get-touch{
-    display: flex;
-    justify-content: space-evenly;
-    width: 95%;
-    align-items: flex-end;
-    border-bottom: 1px solid seashell;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
-
-  .get-touch__container{
-    color: beige;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: flex-start;
+  .get-touch__container {
+      align-items: center;
+      text-align: center;
   }
   .get-touch__container h2 {
-    padding: 0;
-    margin: 0;
+      font-size: 1.4rem;
   }
+  .get-touch__container h3 {
+      font-size: 1.2rem;
+  }
+  .get-touch__container p {
+      font-size: 1rem;
+  }
+  .line-app img {
+      width: 30%;
+      height: auto;
+  }
+  .qbc {
+      flex-direction: column;
+      gap: 15px;
+  }
+  .end {
+      font-size: 0.9rem;
+      text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .subscription-input input,
+  .subscription-input button {
+      font-size: 14px;
+      width: 95%;
+  }
+  .social-icons a {
+      font-size: 1.2rem;
+  }
+  .dataft span {
+      font-size: 1rem;
+  }
+  .get-touch__container h2,
+  .get-touch__container h3 {
+      font-size: 1rem;
+  }
+  .get-touch__container p {
+      font-size: 0.9rem;
+  }
+  .line-app img {
+      width: 50%;
+      height: auto;
+  }
+  .end {
+      font-size: 0.8rem;
+  }
+}

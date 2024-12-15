@@ -3,3 +3,16 @@ html,body{
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    font-family: 'Roboto', 'Poppins', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  p, span {
+    font-family: 'Roboto', sans-serif;
+  }
+   
